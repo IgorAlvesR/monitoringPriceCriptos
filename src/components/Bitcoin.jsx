@@ -1,5 +1,5 @@
 import LabelPrice from "./LabelPrice";
-import ProviderPrice from "./ProviderPrice";
+import ProviderPrice from "../providers/ProviderPrice";
 import styles from "../styles/Bitcoin.module.css";
 
 const Bitcoin = () => {
