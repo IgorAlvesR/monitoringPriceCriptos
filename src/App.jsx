@@ -1,8 +1,10 @@
-import Bitcoin from "./components/Bitcoin"
+import Bitcoin from "./components/Bitcoin";
 function App() {
-  return <>
-    <Bitcoin />    
-  </>
+  return (
+    <>
+      <Bitcoin />
+    </>
+  );
 }
 
-export default App
+export default App;
