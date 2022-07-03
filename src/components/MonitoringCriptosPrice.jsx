@@ -1,15 +1,15 @@
 import LastPrice from "./LastPrice";
 import ProviderPrice from "../providers/ProviderPrice";
-import styles from "../styles/Bitcoin.module.css";
+import styles from "../styles/MonitoringCriptosPrice.module.css";
 
-const Bitcoin = () => {
+const MonitoringCriptosPrice = () => {
   const criptos = {
     btc: 'BTC',
     eth: 'ETH'
   }
   
   return (
-    <div className={styles.bitcoin}>
+    <div className={styles.monitoringCriptosPrice}>
       <ProviderPrice cripto={criptos.btc}>
         {(response) => <LastPrice  cripto={criptos.btc} price={response} />}
       </ProviderPrice>
@@ -21,4 +21,4 @@ const Bitcoin = () => {
   );
 };
 
-export default Bitcoin;
+export default MonitoringCriptosPrice;

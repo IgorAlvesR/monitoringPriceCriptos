@@ -1,7 +1,8 @@
-import Bitcoin from "./components/Bitcoin";
+import MonitoringCriptosPrice from "./components/MonitoringCriptosPrice";
+
 function App() {
-  return (
-    <Bitcoin />    
+  return (        
+    <MonitoringCriptosPrice />        
   );
 }
 

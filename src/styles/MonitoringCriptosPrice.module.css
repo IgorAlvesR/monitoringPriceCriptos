@@ -1,0 +1,11 @@
+.monitoringCriptosPrice {   
+  display: flex;    
+  position: absolute;
+  bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .monitoringCriptosPrice {
+    flex-direction: column;        
+  }
+}
