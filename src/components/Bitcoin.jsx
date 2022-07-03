@@ -1,4 +1,4 @@
-import LabelPrice from "./LabelPrice";
+import LastPrice from "./LastPrice";
 import ProviderPrice from "../providers/ProviderPrice";
 import styles from "../styles/Bitcoin.module.css";
 
@@ -6,7 +6,7 @@ const Bitcoin = () => {
   return (
     <div className={styles.bitcoin}>
       <ProviderPrice>
-        {(response) => <LabelPrice price={response} />}
+        {(response) => <LastPrice price={response} />}
       </ProviderPrice>
     </div>
   );
