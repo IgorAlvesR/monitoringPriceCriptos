@@ -1,11 +1,11 @@
 import { formatterToDolar } from "../utils";
 import styles from "../styles/LabelPrice.module.css";
 
-const LastPrice = ({ price }) => {
+const LastPrice = ({ price, cripto }) => {
   return (
-    <span className={styles.label}>
-      Último preço: {formatterToDolar().format(price)}
-    </span>
+    <p className={styles.label}>
+      Último preço de {cripto}: {formatterToDolar().format(price)}
+    </p>
   );
 };
 export default LastPrice;

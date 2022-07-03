@@ -1,9 +1,14 @@
-.bitcoin {
-  background-image: url('../../btc.image.jpg');
-  height: 100vh;
-  width: 100vw;
-  background-size: cover;
+.bitcoin { 
   color: white;
-  display: flex;
-  align-items: end;
+  display: flex;  
+  justify-content: space-around;
+  margin: 530px 0;
+  
+}
+
+@media (max-width: 768px) {
+  .bitcoin {
+    flex-direction: column;    
+    margin: 400px 0;
+  }
 }
